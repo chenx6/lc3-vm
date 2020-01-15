@@ -2,11 +2,20 @@
 
 A simple lc3 virtual machine written by C.
 
-Features:
+## Features
 
 1. A working virtual machine.
 2. Include some testing cases.
 3. More clear file structure.
+
+## Usage
+
+```bash
+apt update && apt install cmake # if you don't have cmake
+mkdir build && cd build # in responsitory directory
+cmake ..
+make
+```
 
 This vm is based on following repositories:
 
